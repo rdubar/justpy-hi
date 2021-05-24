@@ -1,12 +1,13 @@
 import justpy as jp
+app = jp
 
-def app():
+def hello():
     wp = jp.WebPage()
     jp.Hello(a=wp)
     return wp
 
 def main():
-    jp.justpy(app)
+    jp.justpy(hello)
     app = jp
 
 if __name__ == "__main__":
